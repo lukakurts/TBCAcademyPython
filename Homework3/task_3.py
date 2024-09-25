@@ -5,7 +5,6 @@ day = int(input("please enter which day you were born: "))
 
 my_date = datetime(year, month, day)
 week_day = my_date.weekday()
-print(week_day)
 if week_day == 0:
     print("monday")
 elif week_day == 1:
@@ -19,4 +18,4 @@ elif week_day == 4:
 elif week_day == 5:
     print("saturday")
 else:
-    ("sunday")
+    print("sunday")
