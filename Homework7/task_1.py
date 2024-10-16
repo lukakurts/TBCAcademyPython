@@ -1,7 +1,7 @@
-word = input("please enter string: ")
+sentence = input("please enter string: ")
 
-for i in range(len(word)):
-    if i % 2 != 0 or word[i] == 'e':
+for i in range(len(sentence)):
+    if i % 2 != 0 or sentence[i] == 'e':
         continue
     else:
-        print(word[i])
+        print(sentence[i])
