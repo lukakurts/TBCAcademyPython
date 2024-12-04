@@ -1,6 +1,6 @@
 from math import pow
-firstNumber = int(input("please enter first number: "))
-secondNumber = int(input("please enter second number: "))
+first_number = int(input("please enter first number: "))
+second_number = int(input("please enter second number: "))
 
-result = int(pow(firstNumber, secondNumber))
+result = int(pow(first_number, second_number))
 print("result is ", result)
