@@ -156,7 +156,7 @@ class Game:
         card_values = {"6": 6, "7": 7, "8": 8, "9": 9, "1": 10,
                         "J": 11, "Q": 12, "K": 13, "A": 14}
         won_tricks = {name: [] for name in self._players}
-        for _ in range(2):
+        for _ in range(9):
             first_player = self.temp_players[0]
             gone_cards = self.players_selected_cards()
             first_players_suit = gone_cards[first_player][0][-1]
